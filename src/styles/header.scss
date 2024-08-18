@@ -1,0 +1,74 @@
+.header {
+  background-color: #3F5252;
+  height: 100vh;
+
+  &__bottom {
+    padding-top: 50px;
+  }
+
+  &__date {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    padding-bottom: 10px;
+
+    color: #F1F5F4;
+  }
+
+  &__title {
+    margin: 0;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    padding-bottom: 30px;
+
+    color: #F1F5F4;
+  }
+
+  &__theme {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 40px;
+
+    color: #F1F5F4;
+  }
+
+  &__link {
+    display: block;
+    border: none;
+    text-decoration: none;
+    padding-bottom: 40px;
+  }
+
+  &__button {
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 60px;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: center;
+    color: #F1F5F4;
+
+    background-color: #CD4D31;
+  }
+
+  &__img {
+    height: 188px;
+  }
+
+  &__flex {
+    display: flex;
+    justify-content: center;
+  }
+}
